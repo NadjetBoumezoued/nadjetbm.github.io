@@ -1059,7 +1059,7 @@ section {
   transition: 0.3s;
   display: inline-block;
   height: 400px;
-  width: 30%;
+  width: 25%;
 }
 @media (min-width: 992px) {
   .card {
