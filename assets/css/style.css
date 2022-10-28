@@ -1059,14 +1059,9 @@ section {
   transition: 0.3s;
   display: inline-block;
   height: 400px;
-  width: 25%;
+  width: 30%;
 }
-@media (min-width: 992px) {
-  .card {
-   width: 90%;
-   
-  }
-}
+
 /* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 0 6px 14px 0 rgba(0,0,0,0.1);
