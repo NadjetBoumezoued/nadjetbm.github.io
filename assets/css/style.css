@@ -1056,18 +1056,31 @@ section {
     width: 80%;
   }
 }
+/* Default styles for cards */
 .card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   transition: 0.3s;
   display: inline-block;
-  height: 400px;
-  width: 30%;
+  margin: 10px; /* Add margin for spacing between cards */
+  max-width: 100%; /* Make cards responsive */
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 6px 14px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 14px;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+  .card {
+    width: 100%; /* Make cards take up full width on smaller screens */
+    display: block; /* Stack cards on top of each other */
+  }
 }
 
 /* Add some padding inside the card container */
