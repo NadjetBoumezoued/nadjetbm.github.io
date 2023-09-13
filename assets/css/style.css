@@ -1078,7 +1078,7 @@ section {
 /* Responsive layout for smaller screens */
 @media (max-width: 768px) {
   .card {
-    width: 100%; /* Make cards take up full width on smaller screens */
+    width: 30%; /* Make cards take up full width on smaller screens */
     display: block; /* Stack cards on top of each other */
   }
 }
