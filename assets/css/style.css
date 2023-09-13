@@ -1062,7 +1062,7 @@ section {
   transition: 0.3s;
   display: inline-block;
   margin: 10px; /* Add margin for spacing between cards */
-  max-width: 100%; /* Make cards responsive */
+  width: 30%; /* Make cards responsive */
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -1077,10 +1077,15 @@ section {
 
 /* Responsive layout for smaller screens */
 @media (max-width: 768px) {
-  .card {
-    width: 30%; /* Make cards take up full width on smaller screens */
-    display: block; /* Stack cards on top of each other */
-  }
+ .card {
+  
+  display: block;
+   /* Add margin for spacing between cards */
+  max-width: 100%; /* Make cards responsive */
+}
+
+
+
 }
 
 /* Add some padding inside the card container */
